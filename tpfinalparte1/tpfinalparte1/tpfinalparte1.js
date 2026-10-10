@@ -16,14 +16,14 @@ dibujarPantalla8a,
 dibujarPantalla8b,
 dibujarEndingNeutro,
 dibujarPantalla9,
-//dibujarPantalla10,
-//dibujarPantalla11,
-//dibujarPantalla12,
-//dibujarPantalla13,
-//dibujarPantalla14a,
-//dibujarPantalla14b,
-//dibujarEndingBueno,
-//dibujarEndingMalo
+dibujarPantalla10,
+dibujarPantalla11,
+dibujarPantalla12,
+dibujarPantalla13,
+dibujarPantalla14a,
+dibujarPantalla14b,
+dibujarEndingBueno,
+dibujarEndingMalo,
 dibujarCreditos
 ];
 
@@ -67,8 +67,8 @@ function mousePressed() {
     if (dentro(300, 150, 200, 150)) pantallaActual = 9;
   }
   else if (pantallaActual == 9) {
-    if (dentro(150, 250, 200, 70)) pantallaActual = 10;   // 8a
-    if (dentro(450, 250, 200, 70)) pantallaActual = 11;   // 8b
+    if (dentro(150, 250, 200, 70)) pantallaActual = 10; //8a
+    if (dentro(450, 250, 200, 70)) pantallaActual = 11; //8b
   }
   else if (pantallaActual == 10) {
     if (dentro(300, 150, 200, 150)) pantallaActual = 13;
@@ -76,8 +76,30 @@ function mousePressed() {
   else if (pantallaActual == 11) {
     if (dentro(300, 150, 200, 150)) pantallaActual = 12;
   }
-  else if (pantallaActual == 12) {
+  else if (pantallaActual == 12 || pantallaActual == 20 || pantallaActual == 21) {
     if (dentro(300, 150, 200, 150)) pantallaActual = 0;
+  }
+  else if (pantallaActual == 13) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 14;
+  }
+  else if (pantallaActual == 14) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 15;
+  }
+  else if (pantallaActual == 15) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 16;
+  }
+  else if (pantallaActual == 16) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 17;
+  }
+  else if (pantallaActual == 17) {
+    if (dentro(150, 250, 200, 70)) pantallaActual = 18; //14a
+    if (dentro(450, 250, 200, 70)) pantallaActual = 19; //14b
+  }
+  else if (pantallaActual == 18) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 20;
+  }
+  else if (pantallaActual == 19) {
+    if (dentro(300, 150, 200, 150)) pantallaActual = 21;
   }
   else if (pantallaActual == 22) {
     if (dentro(300, 350, 200, 60)) pantallaActual = 0;

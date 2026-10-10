@@ -55,8 +55,8 @@ function dibujarPantalla3() {
   rect(450, 250, 200, 70);
 
   fill(0);
-  text("Opción A", 250, 285);
-  text("Opción B", 550, 285);
+  text("Opcion A", 250, 285);
+  text("Opcion B", 550, 285);
 }
 
 function dibujarPantalla4a() {
@@ -103,8 +103,8 @@ function dibujarPantalla7() {
   rect(450, 250, 200, 70);
 
   fill(0);
-  text("Opción A", 250, 285);
-  text("Opción B", 550, 285);
+  text("Opcion A", 250, 285);
+  text("Opcion B", 550, 285);
 }
 
 function dibujarPantalla8a () {
@@ -131,6 +131,68 @@ function dibujarEndingNeutro () {
 function dibujarPantalla9 () {
   fill (0);
   text("9", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarPantalla10 () {
+  fill (0);
+  text("10", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarPantalla11 () {
+  fill (0);
+  text("11", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarPantalla12 () {
+  fill (0);
+  text("12", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarPantalla13() {
+  fill(0);
+  text("13", ancho / 2, 60);
+
+  fill(120);
+  rect(150, 250, 200, 70);
+  rect(450, 250, 200, 70);
+
+  fill(0);
+  text("Opcion A", 250, 285);
+  text("Opcion B", 550, 285);
+}
+
+function dibujarPantalla14a () {
+  fill (0);
+  text("14a", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarPantalla14b () {
+  fill (0);
+  text("14b", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarEndingBueno () {
+  fill (0);
+  text("ENDING BUENO", ancho / 2, 60);
+  fill(120);
+  rect(300, 150, 200, 150);
+}
+
+function dibujarEndingMalo () {
+  fill (0);
+  text("ENDING MALO", ancho / 2, 60);
   fill(120);
   rect(300, 150, 200, 150);
 }
