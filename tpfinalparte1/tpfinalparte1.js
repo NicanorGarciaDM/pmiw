@@ -1,3 +1,5 @@
+//defensa del codigo: https://youtu.be/I_zgwSC8S5k
+
 let altura = 450;
 let ancho = 800;
 let pantallaActual = 0;

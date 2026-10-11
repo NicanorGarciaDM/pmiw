@@ -79,7 +79,7 @@ function dibujarPantalla4b() {
   dibujarBoton("Siguiente", ancho - 150, altura - 45, 130, 35);
 }
 
-function dibujarPantalla5a() {
+function dibujarPantalla5b() {
   image(fondos[5], 0, 0, ancho, altura);
 
   fill(0, 0, 0, 150);
@@ -95,7 +95,7 @@ function dibujarPantalla5a() {
   dibujarBoton("Siguiente", ancho - 150, altura - 45, 130, 35);
 }
 
-function dibujarPantalla5b() {
+function dibujarPantalla5a() {
   image(fondos[6], 0, 0, ancho, altura);
 
   fill(0, 0, 0, 150);
