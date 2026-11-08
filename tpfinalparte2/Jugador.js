@@ -5,20 +5,15 @@ class Jugador {
     this.vida = 3;
     this.sprite = spriteJugador;
   }
-}
-
-dibujar() {
-  image(this.sprite, this.posX, this.posY, 50, 50);
-}
-
-moverseArriba() {
-}
-
-moverseAbajo() {
-}
-
-scrollingDerecha() {
-}
-
-estaMuerto() {
+  dibujar() {
+    image(this.sprite, this.posX, this.posY, 50, 50);
+  }
+  moverseArriba() {
+  }
+  moverseAbajo() {
+  }
+  scrollingDerecha() {
+  }
+  estaMuerto() {
+  }
 }

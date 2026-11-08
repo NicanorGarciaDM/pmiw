@@ -5,7 +5,6 @@ class Creditos {
     this.texto = [];
     this.colorete = color(225);
   }
-}
-
-dibujar() {
+  dibujar() {
+  }
 }

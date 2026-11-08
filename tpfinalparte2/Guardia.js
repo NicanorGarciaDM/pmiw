@@ -10,14 +10,11 @@ class Guardia {
       this.posY = 400;
     }
   }
-}
-
-dibujar() {
-  image(this.sprite, this.posX, this.posY, 50, 50);
-}
-
-estaMuerto() {
-}
-
-moverse() {
+  dibujar() {
+    image(this.sprite, this.posX, this.posY, 50, 50);
+  }
+  estaMuerto() {
+  }
+  moverse() {
+  }
 }

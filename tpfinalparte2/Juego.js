@@ -5,26 +5,21 @@ class Juego {
     this.crearGuardias();
     this.crearJugador();
   }
-}
-
-dibujar() {
-  this.Jugador.dibujar();
-  for (let i=0, i<6, i++) {
-    this.guardias[i].dibujar();
+  dibujar() {
+    this.jugador.dibujar();
+    for (let i=0; i<6; i++) {
+      this.guardias[i].dibujar();
     }
   }
-}
-
-crearGuardias() {   
-  this.guardias = [];
-  for (let i=0, i<6, i++) {
-    this.guardias[i] = new Guardia();
+  crearGuardias() {   
+    this.guardias = [];
+    for (let i=0; i<6; i++) {
+      this.guardias[i] = new Guardia();
+    }
   }
-}
-
-crearJugador() {
-  this.jugador = new Jugador();
-}
-
-victoria() {
+  crearJugador() {
+    this.jugador = new Jugador();
+  }
+  victoria() {
+  }
 }

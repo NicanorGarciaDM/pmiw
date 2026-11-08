@@ -3,7 +3,6 @@ class Instrucciones {
     this.texto;
     this.colorete;
   }
-}
-
-dibujar() {
+  dibujar() {
+  }
 }

@@ -12,4 +12,7 @@ function setup() {
   juego = new Juego();
 }
 
-function draw() { }
+function draw() {
+  background(220);
+  juego.dibujar();
+}
