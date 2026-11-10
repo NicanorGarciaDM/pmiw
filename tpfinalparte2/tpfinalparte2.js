@@ -3,8 +3,8 @@ let spriteJugador;
 let spriteGuardia;
 
 function preload() {
-  spriteJugador = loadImage("jugador.png");
-  spriteGuardia = loadImage("guardia.png");
+  spriteJugador = loadImage("assets/jugador.png");
+  spriteGuardia = loadImage("assets/guardia.png");
 }
 
 function setup() {

@@ -7,7 +7,7 @@ class Guardia {
     if (this.estaArriba == true) {
       this.posY = 200;
     } else {
-      this.posY = 400;
+      this.posY = 300;
     }
   }
   dibujar() {
