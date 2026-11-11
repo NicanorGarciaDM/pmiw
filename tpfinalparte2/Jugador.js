@@ -9,11 +9,12 @@ class Jugador {
     image(this.sprite, this.posX, this.posY, 50, 50);
   }
   moverseArriba() {
+    this.posY = 200
   }
-  moverseAbajo() {
+  moverseAbajo() {  
+    this.posY = 300
   }
   scrollingDerecha() {
-  }
-  estaMuerto() {
+    this.posX += 2;
   }
 }

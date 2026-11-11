@@ -9,6 +9,7 @@ class Guardia {
     } else {
       this.posY = 300;
     }
+    this.colisiono = false;
   }
   dibujar() {
     image(this.sprite, this.posX, this.posY, 50, 50);
